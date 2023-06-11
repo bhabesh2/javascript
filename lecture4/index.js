@@ -54,3 +54,21 @@ console.log(obj['city']); // accessing the value of city.
 
 */
 
+// Define an object called obj
+const obj = {
+    name: 'bhabesh',
+    assets: 50000,
+    liabilities: 30000,
+    net_worth: function () {
+        // Calculate the net worth by subtracting liabilities from assets
+        return (this.assets - this.liabilities);
+        // 'this' refers to the current object (obj) that is invoking the method
+        // It allows us to access the properties of the object from within the method
+    }
+};
+
+// Call the net_worth function of the obj object and print the result to the console
+
+console.log(obj.net_worth()); // Output $20000
+
+// Note:: The 'this' keyword in JavaScript is used to refer to the current object and access its properties and methods from within that object.
