@@ -28,4 +28,17 @@ console.log(typeof add); // function . remember functions are also objects.
 Functions in JavaScript are considered "first-class citizens," meaning they can be assigned to variables, passed as arguments, and returned as values.
 */
 
+/*
+Custom Object.
+
+let obj = {
+    name : "bhabesh", 
+    age : 27,
+    city: "Mangaldai"
+}
+here name, age, city are keys and bhabesh, 27, and Mangaldai are values.
+so it's like 
+key : value,
+*/
+
 
