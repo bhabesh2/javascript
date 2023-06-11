@@ -40,5 +40,17 @@ here name, age, city are keys and bhabesh, 27, and Mangaldai are values.
 so it's like 
 key : value,
 */
+/*
 
+let obj = {
+    name: 'bhabesh',
+    age: 23,
+    city: 'Mangaldai'
+}
+
+console.log(obj['name']); // accessing the value of name.
+console.log(obj['age']); // accessing the value of age.
+console.log(obj['city']); // accessing the value of city.
+
+*/
 
